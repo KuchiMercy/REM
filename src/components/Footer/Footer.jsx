@@ -3,7 +3,6 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import logo from "../../assets/REM-logo.png";
-import Newsletter from "../Newsletter/Newsletter";
 
 const Footer = () => {
   const links = [
