@@ -23,7 +23,7 @@ const HomeOne = () => {
         {HomeOneData.map((item) => (
           <section
             data-aos="fade-up"
-            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex flex-col items-start justify-center w-[70%] px-6 md:px-8 m-auto md:w-[30%] h-[300px] md:h-[300px] max-h-[300px] lg:h-[250px] bg-[#fff5eb] border-b-8 border-[#ffd2a4] rounded-lg shadow-xl "
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 flex flex-col items-start justify-center w-[80%] px-6 md:px-8 m-auto md:w-[30%] h-[300px] md:h-[300px] max-h-[300px] lg:h-[250px] bg-[#fff5eb] border-b-8 border-[#ffd2a4] rounded-lg shadow-xl "
             key={item.id}
           >
             <div
