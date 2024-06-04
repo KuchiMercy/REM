@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import peace from "../../../assets/Peace.png";
+import peace from "../../../assets/Peace2.png";
 
 const PeaceConcert = () => {
   useEffect(() => {

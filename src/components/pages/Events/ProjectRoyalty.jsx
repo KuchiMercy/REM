@@ -12,7 +12,7 @@ const ProjectRoyalty = () => {
     <div data-aos="fade-up">
       <section  className="bg-[#fff5eb] w-[70%] gap-4 mx-auto my-4 flex flex-col justify-between items-center md:flex-row  rounded-lg shadow-lg p-4 -translate-y-20 md:-translate-y-30 lg:-translate-y-30">
         {/* Image */}
-        <div data-aos="fade-up" className="w-[70%]">
+        <div data-aos="fade-up" className="w-[65%]">
           <img src={pRoyalty} alt="" />
         </div>
 

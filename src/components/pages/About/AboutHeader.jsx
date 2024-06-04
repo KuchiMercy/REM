@@ -29,50 +29,55 @@ const AboutHeader = () => {
             data-aos="fade-up"
             className=" relative transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 w-[100%] md:w-[97%] shadow-xl"
           >
-             <div
-                data-aos="fade-up"
-                className=" text-white p-2 absolute bottom-0 left-0 z-[100000] md:px-4 md:bottom-0"
-              >
-                <h4 data-aos="fade-up" className="font-bold">
-                  Pastor Adetunji Aribasoye
-                </h4>
-                <p data-aos="fade-up" className="text-sm">
-                  Presiding Pastor
-                </p>
-              </div>
-              <div className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50"></div>
+            <div
+              data-aos="fade-up"
+              className=" text-white p-2 absolute bottom-0 left-0 z-[100000] md:px-4 md:bottom-0"
+            >
+              <h4 data-aos="fade-up" className="font-bold">
+                Pastor Adetunji Aribasoye
+              </h4>
+              <p data-aos="fade-up" className="text-sm">
+                Presiding Pastor
+              </p>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+            ></div>
 
             <div
               data-aos="fade-up"
               style={{ backgroundImage: `url(${tunji})` }}
               className=" bg-cover  h-[350px] md:h-[300px] md:relative rounded-lg  "
-            >
-             
-            </div>
+            ></div>
           </section>
         </span>
 
         {/* 2 */}
         <span className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <section data-aos="fade-up" className="relative w-[100%] md:w-[97%] shadow-xl">
-          <div className="p-2 text-white absolute bottom-0 left-0 z-[100000] md:absolute md:px-4 md:bottom-0">
-                  <h4 data-aos="fade-up" className="font-bold">
-                    Pastor Abolaji Adekeye
-                  </h4>
-                  <p data-aos="fade-up" className="text-sm">
-                    Asst. Presiding Pastor
-                  </p>
-                </div>
-          <div className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50"></div>
-            
-            <div className="">
+          <section
+            data-aos="fade-up"
+            className="relative w-[100%] md:w-[97%] shadow-xl"
+          >
+            <div className="p-2 text-white absolute bottom-0 left-0 z-[100000] md:absolute md:px-4 md:bottom-0">
+              <h4 data-aos="fade-up" className="font-bold">
+                Pastor Abolaji Adekeye
+              </h4>
+              <p data-aos="fade-up" className="text-sm">
+                Asst. Presiding Pastor
+              </p>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+            ></div>
+
+            <div>
               <div
                 data-aos="fade-up"
                 style={{ backgroundImage: `url(${adekeye})` }}
                 className=" bg-cover h-[350px] md:h-[300px] md:relative rounded-lg "
-              >
-              
-              </div>
+              ></div>
             </div>
             <div>{/* Social Media */}</div>
           </section>
@@ -85,23 +90,24 @@ const AboutHeader = () => {
             className=" w-[100%] md:w-[97%] shadow-xl"
           >
             <div className="p-2 text-white absolute left-0 bottom-0 z-[1000000] md:absolute md:px-4 md:bottom-0">
-                  <h4 data-aos="fade-up" className="font-bold">
-                    Pastor Dayo Olumodeji{" "}
-                  </h4>
-                  <p data-aos="fade-up" className="text-sm">
-                    Associate Pastor
-                  </p>
-                </div>
-                      <div className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50"></div>
+              <h4 data-aos="fade-up" className="font-bold">
+                Pastor Dayo Olumodeji{" "}
+              </h4>
+              <p data-aos="fade-up" className="text-sm">
+                Associate Pastor
+              </p>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+            ></div>
 
             <div className="">
               <div
                 data-aos="fade-up"
                 style={{ backgroundImage: `url(${dayo})` }}
                 className=" bg-cover h-[350px] md:h-[300px] md:relative rounded-lg "
-              >
-                
-              </div>
+              ></div>
             </div>
           </section>
         </span>
@@ -109,24 +115,25 @@ const AboutHeader = () => {
         {/* 4 */}
         <span className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <section data-aos="fade-up" className="shadow-xl w-[100%] md:w-[97%]">
-          <div className=" p-2 absolute bottom-0 left-0 z-[100000] text-white  md:px-4 md:bottom-0">
-                  <h4 data-aos="fade-up" className="font-bold">
-                    Pastor Toyin Balogun
-                  </h4>
-                  <p data-aos="fade-up" className="text-sm">
-                    Associate Pastor
-                  </p>
-                </div>
-                <div className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50"></div>
-  
-            <div className="">
+            <div className=" p-2 absolute bottom-0 left-0 z-[100000] text-white  md:px-4 md:bottom-0">
+              <h4 data-aos="fade-up" className="font-bold">
+                Pastor Toyin Balogun
+              </h4>
+              <p data-aos="fade-up" className="text-sm">
+                Associate Pastor
+              </p>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+            ></div>
+
+            <div>
               <div
                 data-aos="fade-up"
                 style={{ backgroundImage: `url(${balogun})` }}
                 className=" bg-cover  h-[350px] md:h-[300px] md:relative rounded-lg "
-              >
-               
-              </div>
+              ></div>
             </div>
           </section>
         </span>

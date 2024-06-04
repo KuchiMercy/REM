@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
-import logo from "../../assets/REM-logo.png";
+import logo from "../../assets/REM-logo1.png";
 
 const Footer = () => {
   const links = [
