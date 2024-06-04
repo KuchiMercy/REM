@@ -30,7 +30,11 @@ const HomeOne = () => {
               data-aos="fade-up"
               className="text-white text-xl bg-black p-3 rounded-full "
             >
-              {item.icon && (<span><item.icon/></span>)}
+              {item.icon && (
+                <span>
+                  <item.icon />
+                </span>
+              )}
             </div>
             <h4 data-aos="fade-up" className="font-bold text-lg py-1">
               {item.title}
@@ -38,8 +42,10 @@ const HomeOne = () => {
             <p data-aos="fa de-up" className="text-sm">
               {item.text}
             </p>
-            
-            <NavLink to={item.link} target="_blank"
+
+            <NavLink
+              to={item.link}
+              target="_blank"
               data-aos="fade-up"
               className=" text-black my-4 px-4 py-2 text-xs bg-[#ffd2a4] rounded-lg "
             >
