@@ -21,8 +21,8 @@ const Home = () => {
   return (
     <div>
       {/* Header */}
-      <header style={{backgroundImage: `url(${home})`}} className=" bg-cover bg-center w-full h-[500px] md:h-screen relative">
-        <div className="bg-gradient-to-r from-black  to-transparent  h-[500px] md:h-screen">
+      <header style={{backgroundImage: `url(${home})`}} className=" bg-cover bg-center w-full h-screen md:h-screen relative">
+        <div className="bg-gradient-to-r from-black  to-transparent  h-screen md:h-screen">
           <div className="absolute flex flex-col justify-center mx-7 md:mx-10 items-start  h-[400px] md:h-[500px] max-w-[70%] md:max-w-[50%] text-white leading-10">
             <h5 className="text-sm md:text-md">
               WELCOME TO{" "}
