@@ -42,7 +42,7 @@ const AboutHeader = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[10000] !opacity-30  rounded-lg"
             ></div>
 
             <div
@@ -69,7 +69,7 @@ const AboutHeader = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] !opacity-40 rounded-lg"
             ></div>
 
             <div>
@@ -99,7 +99,7 @@ const AboutHeader = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] !opacity-40 rounded-lg"
             ></div>
 
             <div className="">
@@ -125,7 +125,7 @@ const AboutHeader = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] opacity-50 rounded-lg"
+              className="absolute top-0 left-0 bg-black w-full h-full z-[1000] !opacity-40 rounded-lg"
             ></div>
 
             <div>
