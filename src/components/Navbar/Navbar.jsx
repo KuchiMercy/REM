@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Navlinks */}
         <div
           className={`md:flex md:items-center md:pb-0 pb-12 pl-9 md:pl-0 absolute md:static md:z-auto z-[1] left-0 w-full h-screen md:h-fit md:w-auto transition-all bg-[#161722]  duration-700 ease-in ${
-            isOpen ? "top-[80px]" : "top-[-1000px]"
+            isOpen ? "top-[75px]" : "top-[-1000px]"
           }`}
         >
           <ul>
