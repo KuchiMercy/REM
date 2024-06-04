@@ -20,9 +20,9 @@ const Events = () => {
     <div>
       <header
         style={{ backgroundImage: `url(${event})` }}
-        className=" bg-cover bg-bottom w-full h-[600px] md:h-[85vh] relative"
+        className=" bg-cover bg-bottom w-full h-screen md:h-[85vh] relative"
       >
-        <div className="bg-gradient-to-r from-black to-transparent h-[600px] md:h-[85vh]">
+        <div className="bg-gradient-to-r from-black to-transparent h-screen md:h-[85vh]">
           <div className="absolute flex flex-col justify-center mx-7 md:mx-10 items-start  h-[550px] max-w-[70%] md:max-w-[50%] text-white">
             <h5 className="text-4xl md:text-5xl pb-4 font-bold">
               <span>{typeEffect}</span>

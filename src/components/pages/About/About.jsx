@@ -16,8 +16,8 @@ const About = () => {
   });
   return (
     <div>
-      <header style={{backgroundImage: `url(${prayer})`}} className=" bg-cover bg-center w-full h-[600px] md:h-[85vh] relative">
-        <div className="bg-gradient-to-r from-black to-transparent  h-[600px] md:h-[85vh]">
+      <header style={{backgroundImage: `url(${prayer})`}} className=" bg-cover bg-center w-full h-screen md:h-[85vh] relative">
+        <div className="bg-gradient-to-r from-black to-transparent  h-screen md:h-[85vh]">
 
         <div className="absolute flex flex-col justify-center mx-7 md:mx-10 items-start  h-[550px] max-w-[75%] md:max-w-[50%] text-white">
           <h5 className="text-md md:text-lg pb-4 font-bold text-[#ffd2a4]">ABOUT US </h5>
